@@ -988,7 +988,6 @@
                   date: this.viewDate
                 });
                 if (this.viewSelect >= 0) {
-                  minutes = 0;
                   this._setDate(UTCDate(year, month, day, hours, minutes, seconds, 0));
                 }
               } else if (target.is('.minute')) {
